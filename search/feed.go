@@ -7,6 +7,9 @@ import (
 
 const dataFile = "data/data.json"
 
+// 定义一个类型用来表示(存储)数据源信息
+// 最后 ` 反引号里的部分被称作标记（tag）。这个标记里描述了 JSON 解码的元数据，
+// 用于创建 Feed 类型值的切片。每个标记将结构类型里字段对应到 JSON 文档里指定名字的字段。
 type Feed struct {
 	Name 	string 	`json:"site"`
 	URI 	string 	`json:"link"`

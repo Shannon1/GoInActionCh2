@@ -50,6 +50,7 @@ type (
 	}
 )
 
+// rssMatcher实现了Search方法，它也是一个Matcher
 type rssMatcher struct {
 
 }
