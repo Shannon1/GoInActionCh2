@@ -5,4 +5,4 @@ A sample in book Go in Action chapter 2
 机制保证这些操作的速度。
 
 
-[程序架构流程图](Go in Action ch2.png)
+![程序架构流程图](https://github.com/Shannon1/GoInActionCh2/blob/master/Go%20in%20Action%20ch2.png)
